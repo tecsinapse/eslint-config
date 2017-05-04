@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-tecsinapse-js",
+  "version": "1.0.0",
+  "description": "ESLint configurations used by TecSinapse for JavaScript projects",
+  "main": "index.js",
+  "author": "Filipe Nevola",
+  "license": "GNU LPGL 3.0",
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.5",
+    "babel-eslint": "^7.2.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tecsinapse/eslint-config-tecsinapse-js.git"
+  }
+}
