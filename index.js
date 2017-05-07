@@ -13,7 +13,9 @@ module.exports = {
         "@meteorjs/eslint-config-meteor"
     ],
     "rules": {
-        "indent": 0,//using prettier
+        "indent": "off",//using prettier
+        "react/jsx-indent": "off",//using prettier
+        "react/jsx-indent-props": "off",//using prettier
         "import/no-extraneous-dependencies": "off",
         "import/prefer-default-export": "off",
         "no-underscore-dangle": "off",
