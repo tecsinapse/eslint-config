@@ -1,14 +1,12 @@
 {
   "name": "eslint-config-tecsinapse-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "main": "index.js",
   "author": "Filipe Nevola",
   "license": "GNU LPGL 3.0",
-  "peerDependencies": {
-    "eslint": "^3.19.0"
-  },
-  "devDependencies": {
+  "dependencies": {
+    "eslint": "^3.19.0",
     "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^7.2.1",
     "eslint-config-airbnb": "^14.1.0",
