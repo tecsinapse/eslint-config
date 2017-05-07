@@ -13,6 +13,7 @@ module.exports = {
         "@meteorjs/eslint-config-meteor"
     ],
     "rules": {
+        "indent": 0,//using prettier
         "import/no-extraneous-dependencies": "off",
         "import/prefer-default-export": "off",
         "no-underscore-dangle": "off",
