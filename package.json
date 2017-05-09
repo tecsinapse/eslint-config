@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tecsinapse-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "main": "index.js",
   "author": "Filipe Nevola",
