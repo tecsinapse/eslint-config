@@ -19,6 +19,12 @@ module.exports = {
     "react/jsx-indent": "off",
     //using prettier
     "react/jsx-indent-props": "off",
+    "react/prop-types": "off",
+    "no-confusing-arrow": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/jsx-space-before-closing": "off",
+    "react/jsx-tag-spacing": "off",
+    "max-len": "off",
     //it is not working correctly with ternary operator
     "react/jsx-closing-bracket-location": "off",
     "import/no-extraneous-dependencies": "off",
