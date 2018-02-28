@@ -29,6 +29,7 @@ module.exports = {
     "react/jsx-closing-bracket-location": "off",
     "import/no-extraneous-dependencies": "off",
     "import/prefer-default-export": "off",
+    "import/no-named-default": "off",
     "no-underscore-dangle": "off",
     "meteor/audit-argument-checks": "off",
     "no-plusplus": "off",
