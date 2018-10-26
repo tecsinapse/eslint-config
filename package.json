@@ -1,6 +1,6 @@
 {
   "name": "@tecsinapse/eslint-config-tecsinapse-js",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "files": [
     "index.js",
@@ -10,13 +10,14 @@
   "author": "Filipe Nevola",
   "license": "GNU LPGL 3.0",
   "dependencies": {
-    "eslint": "^5.6.0",
     "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "9.0.0",
+    "eslint": "^5.6.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-config-react-app": "^3.0.4",
     "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-meteor": "^5.1.0",
