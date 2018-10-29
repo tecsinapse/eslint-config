@@ -1,6 +1,6 @@
 {
   "name": "@tecsinapse/eslint-config-tecsinapse-js",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "files": [
     "index.js",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "9.0.0",
-    "eslint": "^5.6.0",
+    "eslint": "5.6.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-config-react-app": "^3.0.4",
