@@ -1,4 +1,4 @@
-Projeto para padronizar a configuração do ESLint utilizada na TecSinapse para projetos JavaScript
+Projeto para padronizar a configuração do ESLint e do Prettier utilizada na TecSinapse para projetos JavaScript
 
 # Como usar?
 
