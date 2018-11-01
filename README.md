@@ -1,5 +1,27 @@
 Projeto para padronizar a configuração do ESLint utilizada na TecSinapse para projetos JavaScript
 
+# Como usar?
+
+Adicionar no seu package.json como dev dependencies:
+```
+yarn add --dev @tecsinapse/eslint-config-tecsinapse-js
+```
+
+Incluir no seu projeto o arquivo **prettier.config.js** com o conteúdo:
+```javascript
+module.exports = require('@tecsinapse/eslint-config-tecsinapse-js/prettier.config');
+```
+
+Adicionar no package.json uma seção:
+```json
+  "eslintConfig": {
+    "extends": [
+      "@tecsinapse/tecsinapse-js"
+    ]
+  }
+```
+
+
 # Exceções
 
 Usar para console.log de pontos realmente importantes de ficarem no servidor
