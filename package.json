@@ -1,6 +1,6 @@
 {
   "name": "@tecsinapse/eslint-config-tecsinapse-js",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "files": [
     "index.js",
