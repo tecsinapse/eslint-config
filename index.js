@@ -25,7 +25,7 @@ module.exports = {
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': 'off',
     'max-len': 'off',
-    'linebreak-style': 'windows',
+    'linebreak-style': ["error", "windows"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     //it is not working correctly with ternary operator
     'react/jsx-closing-bracket-location': 'off',
