@@ -25,7 +25,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-space-before-closing': 'off',
     'react/forbid-prop-types': [
-      true,
+      2,
       {
         forbid: ['any', 'array'],
         checkContextTypes: false,
