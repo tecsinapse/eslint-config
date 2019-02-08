@@ -11,7 +11,7 @@ module.exports = {
     'react-app',
     'plugin:import/errors',
   ],
-  plugins: ['react', 'import'],
+  plugins: ['react', 'import', 'react-hooks'],
   rules: {
     //using prettier
     indent: 'off',
