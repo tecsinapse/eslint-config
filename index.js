@@ -9,7 +9,7 @@ module.exports = {
     'prettier',
     'prettier/react',
     'react-app',
-    'plugin:import/errors'
+    'plugin:import/errors',
   ],
   plugins: ['react', 'import'],
   rules: {
@@ -22,11 +22,20 @@ module.exports = {
     'react/prop-types': 'off',
     'no-confusing-arrow': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
+    'react-hooks/rules-of-hooks': 'error',
     'react/jsx-space-before-closing': 'off',
+    'react/forbid-prop-types': [
+      true,
+      {
+        forbid: ['any', 'array'],
+        checkContextTypes: false,
+        checkChildContextTypes: false,
+      },
+    ],
     'react/jsx-tag-spacing': 'off',
     'max-len': 'off',
-    'linebreak-style': ["error", "unix"],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    'linebreak-style': ['error', 'unix'],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     //it is not working correctly with ternary operator
     'react/jsx-closing-bracket-location': 'off',
     'import/no-extraneous-dependencies': 'off',
