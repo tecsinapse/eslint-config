@@ -27,7 +27,7 @@ module.exports = {
     'react/forbid-prop-types': [
       2,
       {
-        forbid: ['any', 'array'],
+        forbid: ['any'],
         checkContextTypes: false,
         checkChildContextTypes: false,
       },
