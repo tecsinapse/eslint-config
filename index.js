@@ -76,6 +76,7 @@ module.exports = {
       },
     ],
     'meteor/template-names': ['off'],
+    'curly': ['error', 'all']
   },
   settings: {
     'import/resolver': 'meteor',
