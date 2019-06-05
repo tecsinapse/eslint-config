@@ -3,6 +3,7 @@ module.exports = {
   parserOptions: {
     allowImportExportEverywhere: true,
   },
+  plugins: ['meteor', 'react', 'import', 'react-hooks'],
   extends: [
     'airbnb',
     'plugin:meteor/recommended',
@@ -11,7 +12,6 @@ module.exports = {
     'react-app',
     'plugin:import/errors',
   ],
-  plugins: ['react', 'import', 'react-hooks'],
   rules: {
     //using prettier
     indent: 'off',
