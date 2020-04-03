@@ -3,7 +3,7 @@ module.exports = {
   parserOptions: {
     allowImportExportEverywhere: true,
   },
-  plugins: ['meteor', 'react', 'import', 'react-hooks'],
+  plugins: ['meteor', 'react', 'import', 'react-hooks', 'eslint-plugin-no-inline-styles'],
   extends: [
     'airbnb',
     'plugin:meteor/recommended',
@@ -76,7 +76,8 @@ module.exports = {
       },
     ],
     'meteor/template-names': ['off'],
-    'curly': ['error', 'all']
+    'curly': ['error', 'all'],
+    "no-inline-styles/no-inline-styles": 1
   },
   settings: {
     'import/resolver': 'meteor',
