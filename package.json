@@ -1,14 +1,19 @@
 {
   "name": "@tecsinapse/eslint-config-tecsinapse-js",
-  "version": "2.3.0",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
-  "files": [
-    "index.js",
-    "prettier.config.js"
-  ],
+  "homepage": "https://github.com/tecsinapse/eslint-config-tecsinapse-js#readme",
+  "version": "2.3.1",
   "main": "index.js",
-  "author": "Tecsinapse",
-  "license": "MIT",
+  "author": {
+    "name": "Tecsinapse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tecsinapse/eslint-config-tecsinapse-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tecsinapse/eslint-config-tecsinapse-js/issues"
+  },
   "dependencies": {
     "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^10.1.0",
@@ -25,8 +30,9 @@
     "eslint-plugin-react-hooks": "^3.0.0",
     "prettier": "1.18.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/tecsinapse/eslint-config-tecsinapse-js.git"
-  }
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "license": "MIT"
 }
