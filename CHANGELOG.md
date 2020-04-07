@@ -1,3 +1,10 @@
+## <small>2.3.1 (2020-04-07)</small>
+
+* Fix release script ([8953ead](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/8953ead))
+* Fix version number ([35e1673](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/35e1673))
+
+
+
 ## <small>2.3.3 (2020-04-07)</small>
 
 
