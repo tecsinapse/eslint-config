@@ -1,3 +1,8 @@
+## <small>2.3.3 (2020-04-07)</small>
+
+
+
+
 ## <small>2.3.2 (2020-04-07)</small>
 
 * 2.2.4 ([c90a928](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/c90a928))
