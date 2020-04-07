@@ -1,3 +1,20 @@
+## <small>2.3.2 (2020-04-07)</small>
+
+* 2.2.4 ([c90a928](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/c90a928))
+* 2.2.5 ([a967399](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/a967399))
+* 2.2.6 ([b4145b5](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/b4145b5))
+* 2.3.0 ([748ac16](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/748ac16))
+* 2.3.1 ([df93537](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/df93537))
+* Add bumped ([0d33e96](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/0d33e96))
+* Added git dirty ([f363e6c](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/f363e6c))
+* Adicionando plugins para remover styles inline ([01bd6af](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/01bd6af))
+* Bump acorn from 7.0.0 to 7.1.1 ([70c2f18](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/70c2f18))
+* Release 2.3.1 ([f985aa4](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/f985aa4))
+* Updating babel-eslint to be compatible with latest react-script versions ([9f8dbe8](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/9f8dbe8))
+* Updating package to use react 3.1.1 and eslint 6 ([d0e9810](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/d0e9810))
+
+
+
 ## <small>2.3.1 (2020-04-07)</small>
 
 * 2.2.4 ([c90a928](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/c90a928))
