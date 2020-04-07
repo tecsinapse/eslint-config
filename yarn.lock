@@ -714,6 +714,11 @@ get-stdin@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
   integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
+git-dirty@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/git-dirty/-/git-dirty-1.0.2.tgz#fbbd2cfd36fb5f87cb36e95c508e2e896724e116"
+  integrity sha1-+70s/Tb7X4fLNulcUI4uiWck4RY=
+
 glob-parent@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
