@@ -4,12 +4,12 @@ Projeto para padronizar a configuração do ESLint e do Prettier utilizada na Te
 
 Adicionar no seu package.json como dev dependencies:
 ```
-yarn add --dev @tecsinapse/eslint-config
+yarn add --dev @tecsinapse/eslint-config-tecsinapse-js
 ```
 
 Incluir no seu projeto o arquivo **prettier.config.js** com o conteúdo:
 ```javascript
-module.exports = require('@tecsinapse/eslint-config/prettier.config');
+module.exports = require('@tecsinapse/eslint-config-tecsinapse-js/prettier.config');
 ```
 
 Adicionar no package.json uma seção:
