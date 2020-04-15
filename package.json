@@ -2,7 +2,7 @@
   "name": "@tecsinapse/eslint-config",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
   "homepage": "https://github.com/tecsinapse/eslint-config#readme",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "main": "index.js",
   "author": {
     "name": "Tecsinapse"

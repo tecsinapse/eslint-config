@@ -1,3 +1,8 @@
+## <small>2.5.1 (2020-04-15)</small>
+
+
+
+
 ## 2.5.0 (2020-04-15)
 
 * 2.3.0 ([283af08](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/283af08))
