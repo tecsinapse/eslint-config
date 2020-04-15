@@ -1,3 +1,13 @@
+## 2.5.0 (2020-04-15)
+
+* 2.3.0 ([283af08](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/283af08))
+* 2.3.0 ([cef92df](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/cef92df))
+* Release 2.4.0 ([cde8e1a](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/cde8e1a))
+* Release 2.4.0 ([6ef5f98](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/6ef5f98))
+* Revert "Release 2.4.0" ([de94692](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/de94692))
+
+
+
 ## <small>2.3.1 (2020-04-07)</small>
 
 * Fix release script ([8953ead](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/8953ead))
