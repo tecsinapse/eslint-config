@@ -1,3 +1,10 @@
+## <small>2.5.2 (2020-04-15)</small>
+
+* Remove `-tecsinapse-js` lost ([b6bfccc](https://github.com/tecsinapse/eslint-config/commit/b6bfccc))
+* Revert "Trocando nome do pacote" ([6987cf4](https://github.com/tecsinapse/eslint-config/commit/6987cf4))
+
+
+
 ## <small>2.5.1 (2020-04-15)</small>
 
 
