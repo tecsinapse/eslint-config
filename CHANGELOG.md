@@ -1,11 +1,3 @@
-## 2.4.0 (2020-04-15)
-
-* Removed meteor ([2650949](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/2650949))
-* Trocando nome do pacote ([9c31b1f](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/9c31b1f))
-* Update README.md ([0c92fc7](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/0c92fc7))
-
-
-
 ## <small>2.3.1 (2020-04-07)</small>
 
 * Fix release script ([8953ead](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/8953ead))
