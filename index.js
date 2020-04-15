@@ -3,10 +3,9 @@ module.exports = {
   parserOptions: {
     allowImportExportEverywhere: true,
   },
-  plugins: ['meteor', 'react', 'import', 'react-hooks', 'eslint-plugin-no-inline-styles'],
+  plugins: ['react', 'import', 'react-hooks', 'eslint-plugin-no-inline-styles'],
   extends: [
     'airbnb',
-    'plugin:meteor/recommended',
     'prettier',
     'prettier/react',
     'react-app',
@@ -42,7 +41,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-named-default': 'off',
     'no-underscore-dangle': 'off',
-    'meteor/audit-argument-checks': 'off',
     'no-plusplus': 'off',
     'arrow-parens': 'off',
     'comma-dangle': [
@@ -68,18 +66,7 @@ module.exports = {
         avoidQuotes: false,
       },
     ],
-    'meteor/eventmap-params': [
-      'error',
-      {
-        eventParamName: 'event',
-        templateInstanceParamName: 'instance',
-      },
-    ],
-    'meteor/template-names': ['off'],
     'curly': ['error', 'all'],
     "no-inline-styles/no-inline-styles": 1
-  },
-  settings: {
-    'import/resolver': 'meteor',
   },
 };

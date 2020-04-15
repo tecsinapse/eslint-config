@@ -1,7 +1,7 @@
 {
   "name": "@tecsinapse/eslint-config",
   "description": "ESLint configurations used by TecSinapse for JavaScript projects",
-  "homepage": "https://github.com/tecsinapse/eslint-config-tecsinapse-js#readme",
+  "homepage": "https://github.com/tecsinapse/eslint-config#readme",
   "version": "2.3.1",
   "main": "index.js",
   "author": {
@@ -12,16 +12,14 @@
     "url": "git+ssh://git@github.com/tecsinapse/eslint-config-tecsinapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/tecsinapse/eslint-config-tecsinapse-js/issues"
+    "url": "https://github.com/tecsinapse/eslint-config/issues"
   },
   "dependencies": {
-    "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^10.1.0",
     "eslint": "6.3.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-config-react-app": "^5.0.1",
-    "eslint-import-resolver-meteor": "^0.4.0",
     "eslint-plugin-flowtype": "^3.13.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
