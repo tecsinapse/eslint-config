@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tecsinapse/eslint-config-tecsinapse-js.git"
+    "url": "git+ssh://git@github.com/tecsinapse/eslint-config.git"
   },
   "bugs": {
     "url": "https://github.com/tecsinapse/eslint-config/issues"
