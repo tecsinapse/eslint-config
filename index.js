@@ -67,6 +67,7 @@ module.exports = {
       },
     ],
     'curly': ['error', 'all'],
+    'no-nested-ternary': : ['error', 'all']
     "no-inline-styles/no-inline-styles": 1
   },
 };
