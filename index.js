@@ -10,6 +10,7 @@ module.exports = {
     'prettier/react',
     'react-app',
     'plugin:import/errors',
+    'plugin:prettier/recommended'
   ],
   rules: {
     //using prettier
