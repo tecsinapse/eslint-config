@@ -1,3 +1,13 @@
+## <small>2.5.5 (2020-06-12)</small>
+
+* 2.5.3 ([cddde5b](https://github.com/tecsinapse/eslint-config/commit/cddde5b))
+* New rules ([90cdb01](https://github.com/tecsinapse/eslint-config/commit/90cdb01))
+* Revert "Update README.md" ([404dae3](https://github.com/tecsinapse/eslint-config/commit/404dae3))
+* Update index.js ([49e6f11](https://github.com/tecsinapse/eslint-config/commit/49e6f11))
+* v2.5.4 ([d223ac0](https://github.com/tecsinapse/eslint-config/commit/d223ac0))
+
+
+
 ## <small>2.5.2 (2020-04-15)</small>
 
 * Remove `-tecsinapse-js` lost ([b6bfccc](https://github.com/tecsinapse/eslint-config/commit/b6bfccc))
