@@ -1,3 +1,9 @@
+## <small>2.5.8 (2020-06-12)</small>
+
+* Fix wrong config ([e023d52](https://github.com/tecsinapse/eslint-config/commit/e023d52))
+
+
+
 ## <small>2.5.7 (2020-06-12)</small>
 
 * 2.5.6 ([caf83b1](https://github.com/tecsinapse/eslint-config/commit/caf83b1))
