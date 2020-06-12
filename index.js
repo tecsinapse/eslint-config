@@ -66,7 +66,20 @@ module.exports = {
         avoidQuotes: false,
       },
     ],
-    'curly': ['error', 'all'],
-    "no-inline-styles/no-inline-styles": 1
+    curly: ['error', 'all'],
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: 'var', next: 'return' },
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      {
+        blankLine: 'any',
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
+      },
+      { blankLine: 'always', prev: 'directive', next: '*' },
+      { blankLine: 'any', prev: 'directive', next: 'directive' },
+    ],
+    'eslint arrow-body-style': ['error', 'as-needed'],
+    'no-inline-styles/no-inline-styles': 1,
   },
 };
