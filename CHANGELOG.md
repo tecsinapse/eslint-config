@@ -1,3 +1,9 @@
+## <small>2.5.9 (2020-06-12)</small>
+
+* Fix wrong config again ([04db61b](https://github.com/tecsinapse/eslint-config/commit/04db61b))
+
+
+
 ## <small>2.5.8 (2020-06-12)</small>
 
 * Fix wrong config ([e023d52](https://github.com/tecsinapse/eslint-config/commit/e023d52))
