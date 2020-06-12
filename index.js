@@ -79,7 +79,7 @@ module.exports = {
       { blankLine: 'always', prev: 'directive', next: '*' },
       { blankLine: 'any', prev: 'directive', next: 'directive' },
     ],
-    'eslint arrow-body-style': ['error', 'as-needed'],
+    'arrow-body-style': ['error', 'as-needed'],
     'no-nested-ternary': "error",
     'no-inline-styles/no-inline-styles': 1,
   },
