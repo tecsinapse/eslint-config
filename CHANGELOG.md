@@ -1,3 +1,10 @@
+## <small>2.5.10 (2020-06-12)</small>
+
+* New rules ([7fb9ed7](https://github.com/tecsinapse/eslint-config/commit/7fb9ed7))
+* New rules and plugins ([f5ca26b](https://github.com/tecsinapse/eslint-config/commit/f5ca26b))
+
+
+
 ## <small>2.5.9 (2020-06-12)</small>
 
 * Fix wrong config again ([04db61b](https://github.com/tecsinapse/eslint-config/commit/04db61b))
