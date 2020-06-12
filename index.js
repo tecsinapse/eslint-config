@@ -67,17 +67,32 @@ module.exports = {
       },
     ],
     curly: ['error', 'all'],
-    'padding-line-between-statements': [
-      'error',
-      { blankLine: 'always', prev: 'var', next: 'return' },
-      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" },
+      { "blankLine": "always", "prev": "*", "next": "function" },
+      { "blankLine": "always", "prev": "*", "next": "if" },
       {
-        blankLine: 'any',
-        prev: ['const', 'let', 'var'],
-        next: ['const', 'let', 'var'],
+        "blankLine": "always",
+        "prev": ["const", "let", "var"],
+        "next": "*"
       },
-      { blankLine: 'always', prev: 'directive', next: '*' },
-      { blankLine: 'any', prev: 'directive', next: 'directive' },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      },
+      { "blankLine": "always", "prev": "directive", "next": "*" },
+      { "blankLine": "any", "prev": "directive", "next": "directive" },
+      { "blankLine": "always", "prev": "block-like", "next": "block-like" }
+    ],
+    "prettier/prettier": "error",
+    "react/jsx-no-bind": [
+      "error",
+      {
+        "allowBind": true,
+        "allowArrowFunctions": true
+      }
     ],
     'arrow-body-style': ['error', 'as-needed'],
     'no-nested-ternary': "error",
