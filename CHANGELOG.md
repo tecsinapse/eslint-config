@@ -1,49 +1,14 @@
-## <small>2.5.10 (2020-06-12)</small>
+# Changelog
 
-* New rules ([7fb9ed7](https://github.com/tecsinapse/eslint-config/commit/7fb9ed7))
-* New rules and plugins ([f5ca26b](https://github.com/tecsinapse/eslint-config/commit/f5ca26b))
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-
-
-## <small>2.5.9 (2020-06-12)</small>
-
-* Fix wrong config again ([04db61b](https://github.com/tecsinapse/eslint-config/commit/04db61b))
+## [4.0.0](https://github.com/tecsinapse/eslint-config/compare/v2.2.3...v4.0.0) (2022-09-27)
 
 
+### Features
 
-## <small>2.5.8 (2020-06-12)</small>
-
-* Fix wrong config ([e023d52](https://github.com/tecsinapse/eslint-config/commit/e023d52))
-
-
-
-## <small>2.5.7 (2020-06-12)</small>
-
-* 2.5.6 ([caf83b1](https://github.com/tecsinapse/eslint-config/commit/caf83b1))
-
-
-
-## <small>2.5.5 (2020-06-12)</small>
-
-* 2.5.3 ([cddde5b](https://github.com/tecsinapse/eslint-config/commit/cddde5b))
-* New rules ([90cdb01](https://github.com/tecsinapse/eslint-config/commit/90cdb01))
-* Revert "Update README.md" ([404dae3](https://github.com/tecsinapse/eslint-config/commit/404dae3))
-* Update index.js ([49e6f11](https://github.com/tecsinapse/eslint-config/commit/49e6f11))
-* v2.5.4 ([d223ac0](https://github.com/tecsinapse/eslint-config/commit/d223ac0))
-
-
-
-## <small>2.5.2 (2020-04-15)</small>
-
-* Remove `-tecsinapse-js` lost ([b6bfccc](https://github.com/tecsinapse/eslint-config/commit/b6bfccc))
-* Revert "Trocando nome do pacote" ([6987cf4](https://github.com/tecsinapse/eslint-config/commit/6987cf4))
-
-
-
-## <small>2.5.1 (2020-04-15)</small>
-
-
-
+* update libs and eslint/prettier rules ([#179669](https://github.com/tecsinapse/eslint-config/issues/179669)) ([c58e25b](https://github.com/tecsinapse/eslint-config/commit/c58e25b2abe3bbe326c50bb1a3ad294c6918d11f))
+* update README.md ([#179669](https://github.com/tecsinapse/eslint-config/issues/179669)) ([4c63ab0](https://github.com/tecsinapse/eslint-config/commit/4c63ab0afe499585b5ae48f438a1b6a0ff3119b5))
 
 ## 2.5.0 (2020-04-15)
 
@@ -174,6 +139,3 @@
 * initial commit ([b1f3b38](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/b1f3b38))
 * Update LICENSE.md ([74b0882](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/74b0882))
 * using dependencies instead of peer/dev ([db9e335](https://github.com/tecsinapse/eslint-config-tecsinapse-js/commit/db9e335))
-
-
-
