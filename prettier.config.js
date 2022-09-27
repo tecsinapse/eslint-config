@@ -1,12 +1,9 @@
 module.exports = {
-  semi: true,
+  semi: false,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'none',
+  tabWidth: 2,
+  jsxSingleQuote: true,
   bracketSpacing: true,
-  arrowParens: "avoid",
-  overrides: [
-    {
-      files: 'package*.json',
-    },
-  ],
+  arrowParens: 'avoid',
 };
