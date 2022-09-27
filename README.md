@@ -1,24 +1,25 @@
-Projeto para padronizar a configuração do ESLint e do Prettier utilizada na TecSinapse para projetos JavaScript
+# @tecsinapse/eslint-config
+Projeto para padronizar a configuração do ESLint e do Prettier utilizada na TecSinapse para projetos TypeScript
 
 # Como usar?
 
-Adicionar no seu package.json como dev dependencies:
+Adicionar no seu package.json como devDependencies:
 ```
-yarn add --dev @tecsinapse/eslint-config
+pnpm add -D @tecsinapse/eslint-config
+```
+ou yarn
+```
+yarn add -D @tecsinapse/eslint-config
 ```
 
-Incluir no seu projeto o arquivo **prettier.config.js** com o conteúdo:
+Incluir no seu projeto o arquivo **.prettierrc.cjs** com o conteúdo:
 ```javascript
 module.exports = require('@tecsinapse/eslint-config/prettier.config');
 ```
 
-Adicionar no package.json uma seção:
-```json
-  "eslintConfig": {
-    "extends": [
-      "@tecsinapse/eslint-config"
-    ]
-  }
+Incluir no seu projeto o arquivo **.eslintrc.cjs** com o conteúdo:
+```javascript
+module.exports = require('@tecsinapse/eslint-config');
 ```
 
 
@@ -36,7 +37,17 @@ Usar em pontos onde realmente não temos framework visual para suportar uma impl
 ```javascript
 // eslint-disable-next-line no-alert
 ```
-Usar em pontos onde realmente os dados ficam apenas no cliente e são informações simples que possuem ciclo de vida maior do que o template
-```javascript
-// eslint-disable-next-line meteor/no-session
-``` 
+
+# Versionamento
+Para versionar você pode utilizar:
+```
+npx --yes standard-version --release-as $VERSION
+```
+
+Onde `$VERSION` é `patch` (0.0.x), `minor` (0.x.0) ou `major` (x.0.0). Se preferir, é possível especificar a versão diretamente (x.x.x).
+
+Ao fim do processo, você deverá efetuar o `git push` das alterações:
+```
+git push --follow-tags origin $BRANCH
+```
+Onde `$BRANCH` é o branch em que os comandos foram executados.
