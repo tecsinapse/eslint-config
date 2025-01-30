@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/tecsinapse/eslint-config/compare/v4.0.0...v5.0.0) (2025-01-30)
+
+
+### Bug Fixes
+
+* readme ([dcd63dc](https://github.com/tecsinapse/eslint-config/commit/dcd63dca334051a1472926a58987c401d257691c))
+
 ## [4.0.0](https://github.com/tecsinapse/eslint-config/compare/v2.2.3...v4.0.0) (2022-09-27)
 
 
