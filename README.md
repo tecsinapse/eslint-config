@@ -43,3 +43,11 @@ git push --follow-tags origin $BRANCH
 ```
 
 Onde `$BRANCH` é o branch em que os comandos foram executados.
+
+# Publicação
+
+Para publicar basta rodar o seguinte comando:
+
+```
+npm publish
+```
