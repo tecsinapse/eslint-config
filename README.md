@@ -31,10 +31,12 @@ export default [...tecsinapseEslintConfig];
 Para versionar você pode utilizar:
 
 ```
-npx --yes standard-version --release-as $VERSION
+pnpm version $VERSION
 ```
 
 Onde `$VERSION` é `patch` (0.0.x), `minor` (0.x.0) ou `major` (x.0.0). Se preferir, é possível especificar a versão diretamente (x.x.x).
+
+O comando atualiza a versão no `package.json`, gera um commit e cria a tag `v$VERSION`. Como o `CHANGELOG.md` não é gerado automaticamente, atualize-o manualmente.
 
 Ao fim do processo, você deverá efetuar o `git push` das alterações:
 
@@ -49,5 +51,5 @@ Onde `$BRANCH` é o branch em que os comandos foram executados.
 Para publicar basta rodar o seguinte comando:
 
 ```
-npm publish
+pnpm publish
 ```

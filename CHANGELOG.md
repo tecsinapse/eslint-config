@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/tecsinapse/eslint-config/compare/v5.0.0...v6.0.0) (2026-08-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* react-hooks is now configured via its native flat config (`configs.flat.recommended`), enabling the new v7 rules (`react-hooks/immutability`, `react-hooks/use-memo`, `react-hooks/static-components`, etc.)
+* `eslint-plugin-react-hooks` bumped from v5 to v7 and `globals` from v15 to v17
+
+### Features
+
+* update dependencies to latest versions compatible with ESLint v9 flat config (eslint 9.39, typescript-eslint 8.67, prettier 3.9, etc.)
+* mark package as side-effect free (`sideEffects: false`)
+
+### Bug Fixes
+
+* use react-hooks flat config API instead of the legacy `configs.recommended.rules` accessor
+
+### Documentation
+
+* replace `standard-version`/`npm` release flow with native `pnpm version` / `pnpm publish` in README and AGENTS.md
+* add AGENTS.md with repo layout, commands and release gotchas
+
 ## [5.0.0](https://github.com/tecsinapse/eslint-config/compare/v4.0.0...v5.0.0) (2025-01-30)
 
 

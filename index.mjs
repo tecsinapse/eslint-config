@@ -21,13 +21,8 @@ export default [
     ...tseslint.configs.recommended,
     ...neostandard({ noStyle: true }), 
     {
-        files: ['**/**/*.{js,ts,jsx,tsx}'],
-        plugins: {
-          'react-hooks': pluginReactHooks
-        },
-        rules: {
-          ...pluginReactHooks.configs.recommended.rules
-        }
+        files: ['**/*.{js,ts,jsx,tsx}'],
+        ...pluginReactHooks.configs.flat.recommended
     },
     {
         rules: {
