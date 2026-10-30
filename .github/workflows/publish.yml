@@ -1,0 +1,28 @@
+name: publish
+
+on: workflow_dispatch
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v7
+
+      - name: setup node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: setup npm
+        run: |
+          npm install -g npm@12
+          npm --version
+          node -e 'const p=process.versions.node.split(".").map(Number); if (p[0] < 22 || (p[0] === 22 && p[1] < 14)) { console.error(process.version); process.exit(1) }'
+
+      - name: publish
+        run: npm publish --access public
